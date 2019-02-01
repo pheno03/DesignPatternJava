@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDaoImpl implements IStudentDao,IStaticValeur{
-//	public static final String NAME_STUDENT_TWO = "John";	
-//	public static final String MESSAGE_DELETE = " is deleted from database";
-//	public static final String MESSAGE_STUDENT_ROLL_NO = "Student: Roll No ";	
-//	public static final String MESSAGE_UPDATE = " is updated in the database";
-	
+
 	// list is working as a database
 	List<Student> students;
 
