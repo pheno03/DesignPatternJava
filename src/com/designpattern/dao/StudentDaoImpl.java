@@ -3,21 +3,18 @@ package com.designpattern.dao;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentDaoImpl implements IStudentDao {
-	public static final String NAME_STUDENT_ONE = "Robert";
-	public static final String NAME_STUDENT_TWO = "John";	
-	public static final String MESSAGE_DELETE = " is deleted from database";
-	public static final String MESSAGE_STUDENT_ROLL_NO = "Student: Roll No ";	
-	public static final String MESSAGE_UPDATE = " is updated in the database";
+public class StudentDaoImpl implements IStudentDao,IStaticValeur{
+//	public static final String NAME_STUDENT_TWO = "John";	
+//	public static final String MESSAGE_DELETE = " is deleted from database";
+//	public static final String MESSAGE_STUDENT_ROLL_NO = "Student: Roll No ";	
+//	public static final String MESSAGE_UPDATE = " is updated in the database";
 	
-	
-	 
 	// list is working as a database
 	List<Student> students;
 
 	public StudentDaoImpl() {
 		students = new ArrayList<Student>();
-		Student studentOne = new Student(NAME_STUDENT_ONE, 0);
+		Student studentOne = new Student(IStaticValeur.NAME_STUDENT_ONE, 0);
 		Student studentTwo = new Student(NAME_STUDENT_TWO, 1);
 
 		students.add(studentOne);

@@ -1,12 +1,6 @@
 package com.designpattern.dao;
 
-public class DaoPatternDemo {
-
-	public static final String NAME_STUDENT = " is Name : ";
-	public static final String FERMETURE_CROCHET_MESSAGE_STUDENT_ROLL_NO = " ]";
-
-	public static final String MESSAGE_STUDENT_ROLL_NO = "Student: [RollNo :";
-	public static final String NAME_STUDENT__UPDATE = " Michael ";
+public class DaoPatternDemo implements IStaticValeur {
 
 	public static void main(String[] args) {
 
@@ -14,7 +8,7 @@ public class DaoPatternDemo {
 
 		// print all students
 		for (Student student : studentDao.getAllStudents()) {
-			System.out.println(MESSAGE_STUDENT_ROLL_NO + student.getRollNo() + NAME_STUDENT + student.getName()
+			System.out.println(MESSAGE_STUDENT_ROLL_NO_BEGIN + student.getRollNo() + NAME_STUDENT + student.getName()
 					+ FERMETURE_CROCHET_MESSAGE_STUDENT_ROLL_NO);
 		}
 
@@ -25,7 +19,7 @@ public class DaoPatternDemo {
 
 		// get the student
 		studentDao.getStudent(0);
-		System.out.println(MESSAGE_STUDENT_ROLL_NO + student.getRollNo() + NAME_STUDENT + student.getName()
+		System.out.println(MESSAGE_STUDENT_ROLL_NO_BEGIN + student.getRollNo() + NAME_STUDENT + student.getName()
 				+ FERMETURE_CROCHET_MESSAGE_STUDENT_ROLL_NO);
 	}
 }
