@@ -7,6 +7,8 @@ package com.designpattern.singleton;
  *
  */
 public class SingleObject {
+	static final String MESSAGE_SORTI = "Hello World";
+	
 	// create an object of SingleObject
 	private static SingleObject instance = new SingleObject();
 
@@ -21,6 +23,6 @@ public class SingleObject {
 	}
 
 	public void showMessage() {
-		System.out.println("Hello World");
+		System.out.println(MESSAGE_SORTI);
 	}
 }
