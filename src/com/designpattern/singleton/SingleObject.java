@@ -17,8 +17,7 @@ public class SingleObject {
 	}
 
 	// Get the only object availaible
-	public static SingleObject getInstance() {
-		return instance;
+	public static SingleObject getInstance() {		return instance;
 
 	}
 
