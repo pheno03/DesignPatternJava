@@ -3,8 +3,8 @@ package com.designpattern.filtre;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CriteriaSingle implements ICriteria {
-	static String SINGLE_CRITERE = "SINGLE";
+public class CriteriaSingle implements ICriteria,IConstantesCriteria {
+	
 
 	@Override
 	public List<Person> meetCriteria(List<Person> persons) {

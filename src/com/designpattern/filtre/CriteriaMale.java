@@ -3,9 +3,9 @@ package com.designpattern.filtre;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CriteriaMale implements ICriteria{
+public class CriteriaMale implements ICriteria,IConstantesCriteria{
 
-	private static String  MALE_CRITARIA = "MALE";
+	 
 	@Override
 	public List<Person> meetCriteria(List<Person> persons) {
 		// TODO Auto-generated method stub
