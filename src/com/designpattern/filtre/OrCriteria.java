@@ -1,6 +1,5 @@
 package com.designpattern.filtre;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class OrCriteria implements ICriteria {
