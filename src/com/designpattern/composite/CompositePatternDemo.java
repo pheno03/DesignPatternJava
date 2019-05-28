@@ -5,7 +5,7 @@ package com.designpattern.composite;
  * d'arborescence pour hierarchie entiere)
  * 
  * @author srakotomalala
- *
+ * rmq :tuto historique git
  */
 
 public class CompositePatternDemo {
