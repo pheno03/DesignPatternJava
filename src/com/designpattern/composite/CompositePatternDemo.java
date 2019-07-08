@@ -1,7 +1,7 @@
 package com.designpattern.composite;
 
 /**
- * Traiter un groupe d'objets de la même manier qu'un seul (sous forme
+ * Traiter un groupe d'objets de la même maniere qu'un seul (sous forme
  * d'arborescence pour hierarchie entiere)
  * 
  * @author srakotomalala
